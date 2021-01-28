@@ -86,5 +86,5 @@ stages:
             inputs:
               azureSubscription: 'MSDN - David Oliva(86a08eb7-5b50-4c0e-b2f2-6dcfe7f58a7c)'
               appType: 'webAppLinux'
-              appName: '$(WebAppName)'
+              appName: 'webAppName'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/Tailspin.SpaceGame.Web.zip'
