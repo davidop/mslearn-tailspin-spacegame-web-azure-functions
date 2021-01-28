@@ -72,9 +72,9 @@ stages:
   - deployment: Deploy
     pool:
       vmImage: 'ubuntu-18.04'
-    environment: spike
+    environment: 'spike'
     variables:
-    - group: Release
+    - group: 'Release'
     strategy:
       runOnce:
         deploy:
